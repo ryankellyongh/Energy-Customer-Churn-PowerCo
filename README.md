@@ -1,14 +1,14 @@
 # Energy Customer Churn - PowerCo Dataset
 
-Churn prediction pipeline for an energy utility â€” LightGBM model with SMOTE balancing and SHAP explainability across client, usage, and pricing data.
+Churn prediction pipeline for an energy utility LightGBM model with SMOTE balancing and SHAP explainability across client, usage, and pricing data.
 
 ## Overview
 
-This notebook predicts which customers are likely to churn at PowerCo, a fictional energy utility. Starting from raw client, price history, and churn label data, it walks through exploratory analysis, feature engineering, model training, and explainability â€” ending with a scored CSV ready for retention outreach.
+This notebook predicts which customers are likely to churn at PowerCo, a fictional energy utility. Starting from raw client, price history, and churn label data, it walks through exploratory analysis, feature engineering, model training, and explainability ending with a scored CSV ready for retention outreach.
 
 ## Dataset
 
-Three input files (not included â€” see [BCG Data Science Virtual Program](https://www.theforage.com/)):
+Three input files (not included see [BCG Data Science Virtual Program](https://www.theforage.com/)):
 
 | File | Description |
 |---|---|
@@ -73,4 +73,4 @@ pip install pandas numpy matplotlib seaborn scikit-learn imbalanced-learn xgboos
 
 ## Notes
 
-Model performance is constrained by available features. Adding behavioural signals â€” customer service interactions, payment history, or app engagement â€” would likely push precision above 35%. The current output is best used as a prioritisation tool, not a binary classifier.
+Model performance is constrained by available features. Adding behavioural signals customer service interactions, payment history, or app engagement would likely push precision above 35%. The current output is best used as a prioritisation tool, not a binary classifier.
