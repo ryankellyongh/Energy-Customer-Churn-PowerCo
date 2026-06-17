@@ -8,7 +8,7 @@ This notebook predicts which customers are likely to churn at PowerCo, a fiction
 
 ## Dataset
 
-Three input files (not included see [BCG Data Science Virtual Program](https://www.theforage.com/)):
+Three input files (see [BCG Data Science Virtual Program](https://www.theforage.com/):
 
 | File | Description |
 |---|---|
