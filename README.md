@@ -18,13 +18,13 @@ Three input files (not included â€” see [BCG Data Science Virtual Program](
 
 ## Notebook structure
 
-1. **EDA** â€” churn rate, categorical breakdowns, consumption distributions, tenure analysis
-2. **Feature engineering** â€” price volatility, 6-month price delta, months to contract end/renewal, peak vs off-peak pricing features
-3. **Modelling** â€” Logistic Regression, Random Forest, XGBoost, LightGBM compared on ROC-AUC with stratified train/test split
-4. **Class imbalance** â€” SMOTE oversampling inside an imbalanced-learn pipeline
-5. **Cross-validation** â€” 5-fold stratified CV on the best model
-6. **SHAP explainability** â€” global feature importance, beeswarm direction plot, single-customer waterfall
-7. **Export** â€” predictions saved to `churn_predictions.csv` with churn probability scores
+1. **EDA** churn rate, categorical breakdowns, consumption distributions, tenure analysis
+2. **Feature engineering** price volatility, 6-month price delta, months to contract end/renewal, peak vs off-peak pricing features
+3. **Modelling** Logistic Regression, Random Forest, XGBoost, LightGBM compared on ROC-AUC with stratified train/test split
+4. **Class imbalance** SMOTE oversampling inside an imbalanced-learn pipeline
+5. **Cross-validation**  5-fold stratified CV on the best model
+6. **SHAP explainability** global feature importance, beeswarm direction plot, single-customer waterfall
+7. **Export** predictions saved to `churn_predictions.csv` with churn probability scores
 
 ## Results
 
